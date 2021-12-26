@@ -1,13 +1,14 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
+using System;
 using UnrealBuildTool;
 
-public class Double_Amir_Temur : ModuleRules
-{
-	public Double_Amir_Temur(ReadOnlyTargetRules Target) : base(Target)
-	{
+public class Double_Amir_Temur : ModuleRules {
+	public Double_Amir_Temur(ReadOnlyTargetRules Target) : base(Target) {
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
+		PublicDependencyModuleNames.AddRange(new string[] {
+			"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "MediaAssets", "DesktopPlatform", "Slate"
+		});
 	}
 }
