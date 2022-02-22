@@ -8,7 +8,7 @@ public class Double_Amir_Temur : ModuleRules {
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] {
-			"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "MediaAssets", "DesktopPlatform", "Slate"
+			"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "MediaAssets", "DesktopPlatform", "Slate","MoviePlayer"
 		});
 	}
 }
